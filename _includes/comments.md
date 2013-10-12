@@ -1,8 +1,8 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'lilkr'; // required: replace example with your forum shortname
-
+    var disqus_shortname = 'lilkr'; 
+    var disqus_url = '{{ site.url }}{{ page.url | remove:'index.html' }}';
         // The following are highly recommended additional parameters. Remove the slashes in front to use.
         // var disqus_identifier = 'unique_dynamic_id_1234';
         // var disqus_url = 'http://example.com/permalink-to-page.html';

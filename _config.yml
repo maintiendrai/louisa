@@ -1,1 +1,7 @@
 baseurl: 
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://lilkr.com
+author: lilkr   
+pygments: true
+paginate: 24

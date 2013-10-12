@@ -1,8 +1,7 @@
 ---
-title: ggg
+title: test page
 layout: page
 ---
-<div>
 <ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -16,7 +15,6 @@ layout: page
   </li>
 {% endfor %}
 </ul>
-</div>
 
 <div id="post-pagination" class="paginator">
 

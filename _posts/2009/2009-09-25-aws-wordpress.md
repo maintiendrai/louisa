@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git fork workflow
+title: Hosting wordpress in the amazon ec2 cloud with linux using mac
 categories:
 - Programming
 tags:

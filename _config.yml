@@ -1,4 +1,3 @@
-baseurl: 
 markdown: rdiscount
 permalink: /:year/:month/:title/
 url: http://lilkr.com

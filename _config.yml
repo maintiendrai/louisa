@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://goandfight.com
+author: lilkr   
+pygments: true
+paginate: 24

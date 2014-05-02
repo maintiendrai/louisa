@@ -13,13 +13,14 @@ tags:
     
     http://quanzhibaba.com/archives/315 
 
-1.STEP1没啥问题
+1. STEP1没啥问题
 
-2.STEP2也没什么问题。我也选择了最基本的选项：“Basic 32-bit Amazon Linux AMI 1.0.” （话说在COMMUNITY AMI这地方点下去，是能选择UBUNTU的）嗯，但是我毕竟还是选了AMI的，貌似是REDHAT的系统。
+2. STEP2也没什么问题。我也选择了最基本的选项：“Basic 32-bit Amazon Linux AMI 1.0.” （话说在COMMUNITY AMI这地方点下去，是能选择UBUNTU的）嗯，但是我毕竟还是选了AMI的，貌似是REDHAT的系统。
 
-3.STEP3安装编译PHP的时候，作者是这么做的：sudo yum install php。编译少了其它的一些项，给我后续的工作制造了不少的麻烦，正确应该这样 yum install php libmcrypt libmcrypt-devel php-mcrypt php-mbstring 。 
+3. STEP3安装编译PHP的时候，作者是这么做的：sudo yum install php。编译少了其它的一些项，给我后续的工作制造了不少的麻烦，正确应该这样 yum install php libmcrypt libmcrypt-devel php-mcrypt php-mbstring 。 
 
-4.STEP4这里我特地分段了，作者居然把mysql托管到了RDS，其实数据库是不用托管的，直接在AMI里面安装就可以了，我照着作者的方法做了，结果托管后，按流量收费，被扣了4美元，血琳琳的教训啊。
+4. STEP4这里我特地分段了，
+作者居然把mysql托管到了RDS，其实数据库是不用托管的，直接在AMI里面安装就可以了，我照着作者的方法做了，结果托管后，按流量收费，被扣了4美元，血琳琳的教训啊。
 
 接着看比较完整的文档吧。这文章写得比较严谨。
    

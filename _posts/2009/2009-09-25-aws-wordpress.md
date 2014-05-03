@@ -6,6 +6,7 @@ categories:
 tags:
 - git
 ---
+<img  width="140" height="140" src="http://articles.csdn.net/uploads/allimg/120323/112_120323105235_1.jpg"/>     
 
 朋友告诉我亚马逊有个免费一年的Linux主机，AWS，速度还不错，叫我试一下。只不过要先支付1美金。感觉跟VPS差不多。那我就试一下。在天朝，80端口被电信各个运营商给限了，自己有台服务器都要先备案，才能正常使用80端口。不折腾了，先这样吧。
 

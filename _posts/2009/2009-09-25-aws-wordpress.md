@@ -4,7 +4,7 @@ title: Hosting wordpress in the amazon ec2 cloud with linux using mac
 categories:
 - Programming
 tags:
-- git
+- Programming
 ---
 <img  width="400" height="147" src="http://articles.csdn.net/uploads/allimg/120323/112_120323105235_1.jpg"/>     
 

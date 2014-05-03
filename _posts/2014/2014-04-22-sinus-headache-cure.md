@@ -6,17 +6,25 @@ categories:
 tags:
 - focus on
 ---
+
+被蝶窦炎困扰11年了，蝶窦炎导致头痛阻碍了我的前进。网上找了篇文章，貌似还挺靠谱的。
+ <http://www.buzzle.com/articles/sinus-headache-home-remedies.html>
+
+
 #### Warm Water
+
 The simplest of home remedies is to drink a lot of warm water. I will suggest, whenever you drink water, drink only warm water. If possible, you can drink hot water as well. It will help in minimizing the symptoms sooner.
 
 #### 温水
 最简单的偏方是喝大量的热水。 我建议,每当你喝水,只喝温水。 如果可能的话,你可以喝热水。 这将有助于减少症状。
 
 #### Vitamin C
+
 In case of a common cold or sinusitis, doctors always advice to increase the consumption of food rich in Vitamin C. Vitamin C is rich in antioxidants, which help fight sinus infection itself and boost the immune system of the body. Vitamin C rich food include strawberries, gooseberry, cauliflower, broccoli, pineapples, oranges, lemon and pomegranates. All these foods are easy to procure and easy to include in your diet. If you are a tea drinker, then you can try lemon tea or lemon green tea.
 
 
 #### 维生素C
+
 对于普通感冒或鼻窦炎,医生总是建议食用富含维生素C的食物。维生素C富含抗氧化剂,帮助对抗窦感染自己,提高身体的免疫系统。 维生素C丰富的食物包括草莓、醋栗、菜花、西兰花、菠萝、橙子、柠檬和石榴。 所有的这些食物都容易在你的饮食中获取。 如果你喜欢喝茶,那么你可以试试柠檬茶或柠檬绿茶。
 
 #### Hot and Cold Compress

@@ -8,6 +8,8 @@ tags:
 ---
 
 被蝶窦炎困扰11年了，蝶窦炎导致头痛真是让人。网上找了篇文章，貌似还挺靠谱的。分享给与我一样受到鼻窦炎困扰的朋友，文章的题目是：治疗窦性头痛的家庭秘方
+
+####  
  <http://www.buzzle.com/articles/sinus-headache-home-remedies.html>
 
 

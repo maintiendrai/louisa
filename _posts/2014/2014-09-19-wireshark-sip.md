@@ -25,8 +25,8 @@ SIP server（本文选用Asterisk）实现了Proxy Server（代理服务器）�
 ### Wireshark分析Account注册过程
 
 设置过滤条件，只catch从UAC（ip.addr == 192.168.61.221 && sip）发出或接收的数据包。
-![Mou icon](/Users/lilkr/Documents/regist.png)
-![Mou icon](/Users/lilkr/Documents/regist1.png)
+![Mou icon](http://ww3.sinaimg.cn/large/637573b1jw1eklahsn3myj20vl0180t4.jpg)
+![Mou icon](http://ww1.sinaimg.cn/large/637573b1jw1eklafbmponj20yn0bh77o.jpg)
 1.首先UAC向SIP serve(112.124.57.23)发出REGISTER信息
 
 	REGISTER:UA client 使用此 message 向 server 注册以标明自己的位置。
@@ -37,20 +37,20 @@ SIP电话的格式是：
  如上图所示，sip电话格式为：
 sip:100@112.124.57.23   或   sip:100@lilkr（配置了DNS服务器）
 2.sip server请求要求身份验证。
-![Mou icon](/Users/lilkr/Documents/regist3.png)
+![Mou icon](http://ww1.sinaimg.cn/large/637573b1jw1eklajooh9aj20tx0bsdj6.jpg)
 3.重复1
 
 4.sip server响应，发送200 OK信息
-![Mou icon](/Users/lilkr/Documents/regist2.png)
+![Mou icon](http://ww4.sinaimg.cn/large/637573b1jw1eklaid9b81j20xn0cpq6m.jpg)
 5.UAC向SIP server(112.124.57.23)发出SUBSCRIBE信息
 
 	SUBSCRIBE:告诉 server 一旦发生特定事件时，愿意接收一个通知。
 
-![Mou icon](/Users/lilkr/Documents/regist4.png)
+![Mou icon](http://ww3.sinaimg.cn/large/637573b1jw1eklak5guwkj20wz0czn0t.jpg)
 
 ### Wireshark分析UAC跟UAS交互过程
 1.UAC向UAS拨打电话，UAS拒绝
-![Mou icon](/Users/lilkr/Documents/transation.png)
+![Mou icon](http://ww2.sinaimg.cn/large/637573b1jw1eklaks830lj20xf05ttba.jpg)
 
 	INVITE:UAC 发送此信息用以邀请 UAS 加入会话（包择一对一通话或 conference），其实就是一个 call setup message。
 	ACK:为 INVITE 回复一个确认信息。	
@@ -63,7 +63,7 @@ Informational/provisional | 100  | Trying
 Informational/provisional | 180  | Ringing
 Client-error | 486  |  Busy HereUAS直接挂断，UAC收到486.然后UAC给Sip Server发一个ACK
 2.UAC向UAS拨打电话，UAC自己挂断
-![Mou icon](/Users/lilkr/Documents/transation1.png)
+![Mou icon](http://ww1.sinaimg.cn/large/637573b1jw1eklalabfl5j20we06twhi.jpg)
 
 	CANCEL:用来中止一个还没建立（在建立过程当中）的呼叫。
 SIP Response:
@@ -76,8 +76,8 @@ Success  | 200 | OK
 UAC直接挂断，给Sip Server发一个CANCEL，Sip Server给UAC反馈状态码487，并反馈状态码200.UAC再反馈一个ACK
 
 3.UAC向UAS拨打电话,进行通话
-![Mou icon](/Users/lilkr/Documents/transation2.png)
+![Mou icon](http://ww4.sinaimg.cn/large/637573b1jw1eklam4mg8qj20yw09saf2.jpg)
 ACK之后为完全接通，对方挂断的话Sip Server重新向UAC发送INVITE
 
 VOIP整个Flow分析图：
-![Mou icon](/Users/lilkr/Documents/T2.png)
+![Mou icon](http://ww1.sinaimg.cn/large/637573b1jw1eklamkks4lj20wq0ffwk4.jpg)

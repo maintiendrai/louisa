@@ -56,22 +56,14 @@ sip:100@112.124.57.23   或   sip:100@lilkr（配置了DNS服务器）
 	ACK:为 INVITE 回复一个确认信息。	
 SIP Response:
 
-
-Class of Response | Status Code | Explanation
--------------------- | ------------- | ------------
-Informational/provisional | 100  | Trying
-Informational/provisional | 180  | Ringing
-Client-error | 486  |  Busy HereUAS直接挂断，UAC收到486.然后UAC给Sip Server发一个ACK
+![Mou icon](http://ww4.sinaimg.cn/large/637573b1jw1eklbanaxyaj20ae039aa7.jpg)UAS直接挂断，UAC收到486.然后UAC给Sip Server发一个ACK
 2.UAC向UAS拨打电话，UAC自己挂断
 ![Mou icon](http://ww1.sinaimg.cn/large/637573b1jw1eklalabfl5j20we06twhi.jpg)
 
 	CANCEL:用来中止一个还没建立（在建立过程当中）的呼叫。
 SIP Response:
 
-Class of Response | Status Code | Explanation
--------------------- | ------------- | ------------
-Client-error | 487  |  Request Terminated
-Success  | 200 | OK
+![Mou icon](http://ww3.sinaimg.cn/large/637573b1jw1eklbbu5c1jj20aq02haa2.jpg)
 
 UAC直接挂断，给Sip Server发一个CANCEL，Sip Server给UAC反馈状态码487，并反馈状态码200.UAC再反馈一个ACK
 

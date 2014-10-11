@@ -18,7 +18,7 @@ tags:
 
 1.2  被叫方回给主叫方的180消息
 
-![Mou icon](http://ww1.sinaimg.cn/large/637573b1gw1ekm8afexjrj20kk0arwgz.jpg)
+![Mou icon](http://ww1.sinaimg.cn/large/637573b1gw1el653fadnzj20kk0aj76r.jpg)
 
 ### 二、RTP媒体流
 

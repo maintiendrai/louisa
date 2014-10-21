@@ -35,3 +35,4 @@ tags:
 3.1  每发完一批RTP包的时候，就发一个RTCP包，告诉接收方我刚才发了多少RTP包，多少个字节
 
 ![Mou icon](http://ww3.sinaimg.cn/large/637573b1gw1ekm8y9ou8tj20kk0abjtk.jpg)
+i

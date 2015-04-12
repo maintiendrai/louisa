@@ -6,7 +6,7 @@ categories:
 tags:
 - DSM GIT
 ---
-#群晖DSM上安装Git Server
+
 
 给WD、TOSHIBA开发的无线硬盘APP，也给自己公司开发的WiDiSK无线硬盘APP。都是基于WebDAV的。想知道别人的NAS的APP做的怎么样本来想用旧台式机装黑群晖，但是考虑到功率的问题，我还是选择了群晖的 nas 解决方案以及附带的 DSM 系统。并在手机上装APP进行体验。
 

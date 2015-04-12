@@ -11,7 +11,7 @@ tags:
 >   通过VIM写博客通过geeknote同步到evernote
 
 Vim/vim-markdown/markdown preview plus < -> GeekNote -> Evernote
-
+_
 不需要任何第三方服务器的方案，就是使用Vim编写markdown。
 给Vim配上markdown着色的插件vim-markdown。
 

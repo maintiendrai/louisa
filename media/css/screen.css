@@ -66,7 +66,7 @@ body{
     background-color:#ffffff;
 }
 
-body>div {
+body>div#container {
     width: 70%;
 /*    min-width: 32em;*/
     max-width: 50em;

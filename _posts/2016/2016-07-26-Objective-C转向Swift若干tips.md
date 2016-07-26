@@ -23,5 +23,5 @@ tags:
 	func myTest(xxx …) -\> 返回类型
 - println 带换行的print
 - as 类型转换 “当作”
-- where 关键字（可以作为过滤条件用于 for-in  do-catch  while  if  guard  switch-case generics）
+- where 关键字（可以作为过滤条件用于 for-in \\ do-catch \\ while \\ if \\ guard \\ switch-case \\ generics）
 

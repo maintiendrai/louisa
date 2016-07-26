@@ -18,13 +18,9 @@ tags:
 - var hello :NSString ?
 
 _                 var 定义变量var hello :NSString = @“test”_
-
 _ 	: 指定变量类型_
-
 _ 	? 表示optional，即该变量可能为nil; 调用时必须加? 如 hello?.length_
-
 _ 	! 表示该变量一定不为nil，否则crash_
-
 _ 	@”hello”不存在了,变回了”hello” 如var hello :NSString = "hello"_
 
 - 可以使用+来拼接字符串 "hello"+"world"
@@ -34,4 +30,5 @@ _ 	@”hello”不存在了,变回了”hello” 如var hello :NSString = "hell
 	func myTest(xxx …) -\> 返回类型
 - println 带换行的print
 - as 类型转换 “当作”
+- where 关键字（可以作为过滤条件用于 for-in  do-catch  while  if  guard  switch-case generics）
 
